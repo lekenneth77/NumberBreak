@@ -181,7 +181,7 @@ public class NumberBreak {
             System.out.println("Sucks! You lost!");
         }
         System.out.println();
-        System.out.print("Would you like to play another game of Sphere Break? Enter Y for Yes and N for No: ");
+        System.out.print("Would you like to play another game of Number Break? Enter Y for Yes and N for No: ");
         if (sc.next().toUpperCase().charAt(0) != 'Y') {
             System.out.println("Thanks for playing!");
             return false;
